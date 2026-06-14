@@ -1,18 +1,19 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  --gradient-hero: radial-gradient(at 80% 0%, oklch(0.85 0.12 225 / 0.45) 0px, transparent 50%), radial-gradient(at 0% 80%, oklch(0.32 0.13 258 / 0.18) 0px, transparent 50%), linear-gradient(180deg, oklch(0.985 0.005 240) 0%, oklch(0.95 0.025 235) 100%);
 }
 
-@media (prefers-color-scheme: dark) {
+.font-fraunces {
+  font-family: var(--font-fraunces), serif;
+}
+
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
@@ -23,4 +24,4 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
