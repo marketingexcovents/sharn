@@ -89,7 +89,6 @@ export default function FreeOpinionForm() {
 
       // Call your API here
 
-      toast.success("Form submitted successfully!");
       const response = await fetch(url, {
         method: "POST",
         body: JSON.stringify(data),
@@ -113,7 +112,7 @@ export default function FreeOpinionForm() {
   };
 
   return (
-    <div className="w-10/12 mx-auto rounded-4xl border border-white/10 bg-[#2B5783] p-4 md:p-8">
+    <div className="w-full md:w-10/12 mx-auto rounded-4xl border border-white/10 bg-[#2B5783] p-4 md:p-8">
       <h2 className="text-white text-2xl font-bold">
         Get a Free Opinion
       </h2>

@@ -49,7 +49,7 @@ const HeyDoctaJourney = () => {
                     {/* Connecting line - visible on desktop only */}
                     
 
-                    <div className="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
+                    <div className="relative grid grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
                         <div className="hidden lg:block absolute left-1/2 top-3/12 -translate-y-1/2 w-3/4 h-1 bg-linear-to-r from-transparent via-[#00b6e6] to-transparent transform -translate-x-1/2"></div>
                         {steps.map((step, index) => (
                             <div key={step.id} className="flex flex-col items-center">
@@ -61,7 +61,7 @@ const HeyDoctaJourney = () => {
 
                                     {/* Connecting dots for mobile/tablet */}
                                     {index < steps.length - 1 && (
-                                        <div className="lg:hidden absolute -right-8 top-1/2 w-4 h-1 bg-teal-400 transform -translate-y-1/2"></div>
+                                        <div className="hidden lg:hidden absolute -right-8 top-1/2 w-4 h-1 bg-teal-400 transform -translate-y-1/2"></div>
                                     )}
                                 </div>
 

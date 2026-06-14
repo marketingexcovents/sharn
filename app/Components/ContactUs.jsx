@@ -14,10 +14,10 @@ import { IoLogoWhatsapp } from "react-icons/io";
 const ContactUs = () => {
     return (
         <>
-            <div className='h-screen bg-[radial-gradient(circle_at_85%_15%,rgba(120,190,255,0.35)_0%,rgba(120,190,255,0.18)_25%,transparent_50%),radial-gradient(circle_at_10%_90%,rgba(120,190,255,0.25)_0%,transparent_45%),linear-gradient(135deg,#f4f6f8_0%,#edf2f6_45%,#e6edf5_100%)]'>
+            <div className='h-full md:h-screen bg-[radial-gradient(circle_at_85%_15%,rgba(120,190,255,0.35)_0%,rgba(120,190,255,0.18)_25%,transparent_50%),radial-gradient(circle_at_10%_90%,rgba(120,190,255,0.25)_0%,transparent_45%),linear-gradient(135deg,#f4f6f8_0%,#edf2f6_45%,#e6edf5_100%)]'>
                 <div className='container mx-auto'>
                     <div className='py-6 md:py-20'>
-                        <div className='grid grid-cols-2'>
+                        <div className='grid grid-cols-1 md:grid-cols-2'>
                             <div>
                                 <p className='bg-linear-to-l from-[#00b6e6] to-[#002e73] text-transparent bg-clip-text uppercase text-[0.9rem] pb-8'>Don't Hesitate to Contact Us
 
@@ -30,7 +30,7 @@ const ContactUs = () => {
 
                                 </p>
 
-                                <div className='pt-4'>
+                                <div className='py-9 md:pt-4'>
                                     <div className="flex gap-4 items-center">
                                         <FaPhoneAlt className="w-10 h-10 rounded-2xl text-black bg-linear-to-l from-[#00b6e6] to-[#e2f5ff] flex items-center justify-center transition p-3" />
                                         <a href="tel:+919818560909" className='font-semibold text-[1.2rem] bg-linear-to-l from-[#00b6e6] to-[#002e73] text-transparent bg-clip-text'> +91 9818560909

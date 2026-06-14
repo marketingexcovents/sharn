@@ -14,11 +14,11 @@ const page = () => {
   return (
 
     <>
-      <div className='h-screen bg-[radial-gradient(circle_at_85%_15%,rgba(120,190,255,0.35)_0%,rgba(120,190,255,0.18)_25%,transparent_50%),radial-gradient(circle_at_10%_90%,rgba(120,190,255,0.25)_0%,transparent_45%),linear-gradient(135deg,#f4f6f8_0%,#edf2f6_45%,#e6edf5_100%)]'>
+      <div className='h-auto md:h-screen bg-[radial-gradient(circle_at_85%_15%,rgba(120,190,255,0.35)_0%,rgba(120,190,255,0.18)_25%,transparent_50%),radial-gradient(circle_at_10%_90%,rgba(120,190,255,0.25)_0%,transparent_45%),linear-gradient(135deg,#f4f6f8_0%,#edf2f6_45%,#e6edf5_100%)]'>
         <div className='container mx-auto'>
           <div className='py-6 md:py-20'>
-            <div className='grid grid-cols-2'>
-              <div>
+            <div className='grid grid-cols-1 md:grid-cols-2 '>
+              <div className='mb-8 md:mb-0'>
                 <p className='bg-linear-to-l from-[#00b6e6] to-[#002e73] text-transparent bg-clip-text uppercase text-[0.9rem] pb-8'>Est. 1974 · 48 hospitals · 21 countries</p>
                 <h1 className='text-7xl pb-8'>World-class care, <span className=' bg-linear-to-l from-[#00b6e6] to-[#002e73] text-transparent bg-clip-text'>gently</span>  delivered.
                 </h1>
@@ -32,7 +32,7 @@ const page = () => {
                   <LinkTag href="/" text="Explore specialties" style="bg-white text-black" />
                 </div>
 
-                <div className='pt-28 flex gap-8'>
+                <div className='pt-10 md:pt-28 flex gap-8'>
                   <div>
                     <p className='pb-1 uppercase text-[0.8rem]'>Patients / yr</p>
                     <p className='font-semibold text-2xl bg-linear-to-l from-[#00b6e6] to-[#002e73] text-transparent bg-clip-text'> 2.4M+

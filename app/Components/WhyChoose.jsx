@@ -47,7 +47,7 @@ const WhyChoose = () => {
     return (
         <>
             <div className='container py-10 md:py-20 mx-auto'>
-                <div className='grid grid-cols-2 gap-36'>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-36'>
 
                     <div className='flex  items-center justify-center'>
                         <Image
@@ -68,7 +68,7 @@ const WhyChoose = () => {
 
                         <p className='text-[1.2rem] text-[#54657a] pb-8'>From enquiry to treatment, we handle it all — reports, opinions, consults, hospitals, visa, travel and stay.  </p>
 
-                        <div className='grid grid-cols-2 gap-4'>
+                        <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
                             {
                                 AboutPoints.map((data) =>
                                     <div key={data.id} className='flex gap-4 '>

@@ -5,7 +5,7 @@ import Image from 'next/image'
 const CountryContent = () => {
     return (
         <div className='container mx-auto py-10 md:py-20'>
-            <div className='grid grid-cols-2 gap-32 items-start'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-32 items-start'>
                 {/* Image column */}
                 <div className='flex  items-center justify-center'>
                     <Image

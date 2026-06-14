@@ -95,12 +95,12 @@ const MultiSpecialtyFocus = () => {
         <div className='container py-10 md:py-20 mx-auto'>
             <div className='text-center'>
                 <p className=' bg-linear-to-l from-[#00b6e6] to-[#002e73] text-transparent bg-clip-text tracking-[0.3rem] uppercase text-[0.9rem] pb-4'>Multi-Specialty Focus</p>
-                <h1 className='text-5xl w-2/4 mx-auto pb-8'>We cover all medical needs, <span className=' bg-linear-to-l from-[#00b6e6] to-[#002e73] text-transparent bg-clip-text'>from hair transplants to heart transplants.</span>
+                <h1 className='text-5xl w-full md:w-2/4 mx-auto pb-8'>We cover all medical needs, <span className=' bg-linear-to-l from-[#00b6e6] to-[#002e73] text-transparent bg-clip-text'>from hair transplants to heart transplants.</span>
                 </h1>
             </div>
 
             <div className='py-10'>
-                <div className='grid grid-cols-3 gap-4'>
+                <div className='grid  grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4'>
                     {
                         FocusData.map((data) =>
                             <div key={data.id} className='flex gap-4 border border-[#d6e0e7] p-6 rounded-2xl'>

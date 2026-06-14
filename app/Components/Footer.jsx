@@ -10,7 +10,7 @@ import { FaSquareWhatsapp } from "react-icons/fa6";
 export default function Footer() {
     return (
         <footer className="bg-slate-950 text-white">
-            <div className="max-w-7xl mx-auto px-8 py-16 grid grid-cols-1 md:grid-cols-4 gap-12">
+            <div className="max-w-7xl mx-auto px-8 py-16 grid grid-cols-2 md:grid-cols-4 gap-12">
                 {/* Brand Section */}
                 <div className="md:col-span-1">
                     <div className="flex items-center gap-3 mb-4">
